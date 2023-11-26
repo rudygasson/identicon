@@ -1,8 +1,10 @@
 # Identicon
 
 A little module to create avatar placeholders in the form of so-called "identicons".
-They are images made up of a 5x5 grid with randomly but symmetrical generated fields
-of the same random color.
+They are images made up of a 5x5 grid with symmetrical generated fields of the same color,
+based on a hash algorithm with a string as input.
+
+The same input string (e.g. username, nick name) always generates the same identicon.
 
 ## Installation
 
